@@ -4,74 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>creme galactico</title>
+    <title>Creme Galáctico - Sorvete de Outro Universo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <!-- Header com botão Explorar Sabores à direita -->
     <header>
-        <div class="container">
-            <div>
-                <img src="../img/Logo.png" alt="logo">
-            </div>
+        <div class="header_container">
+            <a href="index.html"><img src="../img/Logo.png" alt="logo" class="logo"></a>
             <nav class="header_nav">
                 <ul>
-                    <li><a href="">Sabores</a></li>
-                    <li><a href="">Nossa Galáxia</a></li>
-                    <li><a href="">Cadastrar</a></li>
+                    <li><a href="#">Sabores</a></li>
+                    <li><a href="#">Nossa galáxia</a></li>
+                    <li><a href="#">Lojas</a></li>
+                    <li><a href="#">Cadastro</a></li>
                 </ul>
             </nav>
+            <a href="#" class="header_explore_btn">
+                Explorar sabores 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+            <button class="ice_cream">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path d="M463.1 224C463.7 218.7 464 213.4 464 208C464 128.5 399.5 64 320 64C240.5 64 176 128.5 176 208C176 213.4 176.3 218.7 176.9 224L176 224C149.5 224 128 245.5 128 272C128 298.5 149.5 320 176 320L464 320C490.5 320 512 298.5 512 272C512 245.5 490.5 224 464 224L463.1 224zM192 368L297.2 593.5C301.3 602.3 310.2 608 320 608C329.8 608 338.6 602.3 342.8 593.5L448 368L192 368z" />
+                </svg>
+            </button>
         </div>
     </header>
+
     <main>
         <section class="hero_section">
-            <div class="hero_container">
-                <span>-UMA VIAGEM ALÉM DO SABOR</span>
-                <H1>SORVETE <br> DE OUTRO <br><EM>universo</EM>
-                </H1>
-                <p>Pequenos lotes, ingredientes extraordinários e combinações que parecem ter vindo direto de uma
-                    galáxia distante.</p>
-                <a href="" class="btn_menu">
-                    <span>Iniciar viagem</span>
-                    <div class="btn_link">
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-               <!-- Círculo de fundo escuro -->
-               <circle cx="50" cy="50" r="45" fill="#0d0b27" />
-  
-                <!-- Seta branca centralizada -->
-                <path d="M 35 50 H 63 M 55 42 L 63 50 L 55 58" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-                </svg>
-            </div>
-                </a>
-            </div>
+            <div class="hero_home_container">
+                
+                <div class="hero_home_content">
+                    <span class="cs_span">- UMA VIAGEM ALÉM DO SABOR</span>
+                    <h2>SORVETE <br> DE OUTRO <br> <span class="h2_span">universo.</span></h2>
+                    <p>Pequenos lotes, ingredientes extraordinários e combinações que parecem ter vindo direto de uma galáxia distante.</p>
+                    
+                    <a href="#" class="hero_btn">
+                        Iniciar viagem
+                        <span class="btn_arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
 
+            </div>
+            
+            <div class="scroll_indicator">
+                <span>ROLE PARA DESCOBRIR</span>
+                <div class="scroll_line"></div>
+            </div>
         </section>
 
         <section class="story_section">
-            <div class="story_image">
-                <img src="../img/Sundae Cósmico em Terreno Lunar.png" alt="banner">
+<section class="story_section">
+    
+    <div class="story_image_wrapper">
+        <img src="../img/Sundae Cósmico em Terreno Lunar.png" alt="Textura de Sorvete Galáctico" class="story_img">
+    </div>
+
+    <div class="story_content">
+        <span class="cs_span">- NOSSA MISSÃO</span>
+        <h2>O UNIVERSO CABE <br> EM UMA <br> <span class="h2_span">casquinha.</span></h2>
+        
+        <p>Desde 2018, exploramos sabores, texturas e histórias para criar sorvetes que despertam curiosidade. Tudo começa com ingredientes reais, produtores locais e uma dose generosa de imaginação.</p>
+        
+        <div class="story_stats">
+            <div class="stat_item">
+                <h3>18</h3>
+                <p>SABORES EM ROTAÇÃO</p>
             </div>
-            <div class="story_copy">
-                <span>-NOVA MISSÃO</span>
-                <h2>O UNIVERSO CABE EM UMA CASQUINHA</h2>
-                <P>Desde 2026, exploramos sabores, texturas e histórias para criar sorvetes que despertam curiosidade. Tudo começa com ingredientes reais, produtores locais e uma dose generosa de imaginação.</P>
-                <dl>
-                    <div>
-                        <dt>18</dt>
-                        <dd>SABORES EM ROTAÇÃO</dd>
-                    </div>
-                    <div>
-                        <dt>100%</dt>
-                        <dd>INGREDIENTES NATURAIS</dd>
-                    </div>
-                    <div>
-                        <dt>0</dt>
-                        <dd>ATALHOS ARTIFICIAIS</dd>
-                    </div>
-                </dl>
+            <div class="stat_item">
+                <h3>100%</h3>
+                <p>INGREDIENTES NATURAIS</p>
             </div>
+            <div class="stat_item">
+                <h3>0</h3>
+                <p>ATALHOS ARTIFICIAIS</p>
+            </div>
+        </div>
+    </div>
+
+</section>
         </section>
     </main>
-</body>
 
+</body>
 </html>
